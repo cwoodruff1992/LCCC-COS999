@@ -1,0 +1,24 @@
+6/8/2012 J. Loftus 
+
+This is a brief directory of the demostration files that I'm trying to 'sync' between my local repo and the github master repo.  
+
+I'm hoping students who are participating in the COS999 workshop will take these, play around with them, and learn something
+about applying data structures in the 'real world' setting.  
+
+Test1 - recursive drawing of a maze, with order in which 'free' squares are produced displayed.
+
+Disjoint Union - Uses Kruskal's algorithm for generating a spanning tree via Disjoint Union/Find data structure to 
+construct random mazes by knocking down walls.  
+
+Some motion 642012 - Uses Kruskals/Union to build maze, then has a game
+element move around randomly, demonstrating the redraw of walls. 
+
+Bread crumbs - demonstrates the use of a Dequeue data structure (FIFO queue)
+to produce a trace behind the moving game element, and then erase the trace
+along the path the element took in the order in which it was placed.  
+
+Colorful bread crumbs - like Bread crumbs, just more colorful. :)
+
+Recursive bread crumbs - using a stack to allow the dynamic game element to recursively find 
+the exit for a randomly produced maze.  
+
